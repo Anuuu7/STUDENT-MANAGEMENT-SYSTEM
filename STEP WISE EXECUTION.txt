@@ -1,0 +1,40 @@
+STEP BY STEP EXPLANATION OF CODE EXECUTION 
+
+Step 1: Install Visual Studio Code
+Download and Install VS Code:
+Go to the Visual Studio Code website.
+Download the installer for your operating system (Windows, macOS, or Linux).
+Follow the installation instructions for your OS
+Step 2: Install Node.js and npm
+Download and Install Node.js:
+Go to the Node.js website.
+Download the LTS version, which includes npm.
+Follow the installation instructions.
+Verify Installation:
+Open a terminal or command prompt.
+Run node -v and npm -v to check the installation.
+Step 3: Set Up Web Application Project
+Open VS Code:
+Launch Visual Studio Code.
+Create a New Folder
+Create an index.html, styles.css, and script.js file as outlined in the previous steps.
+Navigate to the location where you want to create your project.
+Run mkdir my-web-app and then cd my-web-app to create and navigate to your project directory.
+Initialize a New Node.js Project:
+Run npm init -y to create a package.json file with default settings.
+Step 5: Install a Local Web Server
+Install a Web Server:
+For a simple web server, you can use a package like http-server or lite-server.
+Install it by running npm install http-server --save-dev or npm install lite-server --save-dev.
+Step 6: Configure package.json
+Add a Start Script:
+Open package.json.
+Under "scripts", add a start script to use the server you installed. 
+Step 7: Run Your Application
+Run the Server:
+In the terminal, run npm start.
+This will start the server and serve your web application.
+Open in Browser:
+Your default browser should open, displaying your web application. If not, open your browser and navigate to the address shown in the terminal output (usually http://localhost:8080 for http-server or http://localhost:3000 for lite-server).
+
+
